@@ -1,0 +1,184 @@
+"AbilityId","Name","AbilityTypeId","Description","Cost"
+0,"Ability Up",0,"Doubles AP gained after battle for character(s) on which it's equipped. ",3
+1,"Absorb MP",0,"If hit with a enemy spell, absorb as MP the MP cost of the spell cast. ",6
+2,"Accuracy+",0,"Physical attacks never miss (even if the target is under Vanish). ",2
+3,"Add Status",0,"Adds weapon status effect to regular weapon attacks (except Thief Swords). Base chance of inflicting a status depends on the specific weapon. ",3
+4,"Alert",0,"Prevents Back Attacks against your party (does not work with forced Back Attacks). ",4
+5,"Antibody",0,"Prevents Poison and Venom. ",4
+6,"Auto-Float",0,"Gives character inherent, unremovable Float status while equipped. ",6
+7,"Auto-Haste",0,"Gives character inherent, unremovable Haste status while equipped. This also grants immunity to the Slow status.",9
+8,"Auto-Life",0,"Character receives Auto-Life status at the beginning of battle. The status can be removed through the normal means. ",12
+9,"Auto-Potion",0,"If character is damaged, they automatically use the lowest-level Potion available in inventory. ",3
+10,"Auto-Reflect",0,"Gives character inherent, unremovable Reflect status while equipped. ",15
+11,"Auto-Regen",0,"Gives character inherent, unremovable Regen status while equipped. ",10
+12,"Bandit",0,"Causes Steal command to never miss. Does not affect the probability of actually getting an item. ",5
+13,"Beast Killer",0,"Deals 1.5x normal damage to Beast-type enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",4
+14,"Bird Killer",0,"Deals 1.5x normal damage to Bird-type (flying) enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",3
+15,"Body Temp",0,"Prevents Heat and Freeze statuses. ",4
+16,"Boost",0,"Causes all Summons (except the random free Summons during Dagger's Trance) to be the long animation. ",12
+17,"Bright Eyes",0,"Prevents Darkness status. Does not remove the status if it was present when the ability was equipped. ",4
+18,"Bug Killer",0,"Deals 1.5x normal damage to Bug-type (insect) enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",2
+19,"Chemist",0,"Doubles the power of Potion, Hi-Potion, and Ether. ",4
+20,"Clear Headed",0,"Prevents Confuse status. ",5
+21,"Concentrate",0,"Cure, Cura, and Curaga heal 1.5x normal healing, and power of Life, Full-Life, and Phoenix (the revival portion) is doubled. Contrary to the in-game description, this does not affect other spells. ",10
+22,"Counter",0,"If attacked physically (regardless of whether the attack hit or not), character has a percentage chance equal to their Spirit stat to counter with a basic physical attack. ",8
+23,"Cover",0,"Takes physical damage for any character with 1/6 or less of their max HP remaining. ",6
+24,"Devil Killer",0,"Deals 1.5x normal damage to Demon-type enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",2
+25,"Distract",0,"Cuts enemies' physical attack accuracy against the character by 1/2. ",5
+26,"Dragon Killer",0,"Deals 1.5x normal damage to Dragons. Does not stack with other -Killer abilities if enemy is in more than one category. ",3
+27,"Eye 4 Eye",0,"Doubles the chance to counter. Counter must be equipped as well, or this ability will do nothing. ",5
+28,"Flee-Gil",0,"Party still wins Gil is battle escaped. Does not affect the Flee Skill. ",3
+29,"Gamble Defense",0,"Character's Defense is randomly set between 0 and 2x normal when attacked.",1
+30,"Guardian Mog",0,"At the end of battle, removes all status ailments (except KO) from Eiko before Exp and AP are awarded. Does not work until party has obtained its first Ribbon item (but Eiko can learn the ability earlier), so don't bother equipping it until then. ",3
+31,"Half MP",0,"Cuts MP cost for all abilities by 1/2. ",11
+32,"Healer",0,"Physical attacks heal the target. Undead targets will still take damage. ",2
+33,"High Jump",0,"Doubles damage dealt by Jump command. ",4
+34,"High Tide",0,"Trance gauge fills (on average) twice as fast (High Tide causes it to fill by the character's Spirit stat, as opposed to a random number up to the character's Spirit stat like normal). ",8
+35,"HP+10%",0,"Increases character's maximum HP by 10%. ",4
+36,"HP+20%",0,"Increases character's maximum HP by 20%. ",8
+37,"Initiative",0,"Greatly increases party's chance of a Pre-Emptive Strike. ",5
+38,"Insomniac",0,"Prevents Sleep status. ",5
+39,"Jelly",0,"Prevents Gradual Petrify and Petrify statuses. Does not remove the status if it was present when the ability was equipped. ",4
+40,"Level Up",0,"Character on which ability is equipped gains 1.5x normal Exp from battles. ",7
+41,"Locomotion",0,"Prevents Stop status. ",4
+42,"Long Reach",0,"All physical attacks do normal damage from the Back Row and are able to hit out-of-reach targets. (Note: This effect is innate on Rackets.) ",16
+43,"Loudmouth",0,"Prevents Silence status. Does not remove the status if it was present when the ability was equipped. ",4
+44,"Mag Elem Null",0,"Causes spells cast by Vivi to be non-elemental. ",13
+45,"Man Eater",0,"Deals 1.5x normal damage to Human enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",2
+46,"Master Thief",0,"Raises chances for Stealing items in the Rare and Semi-Rare slots to 1/8 chance for each. Also causes the Steal ability to ignore empty slots when trying to Steal. ",5
+47,"Millionaire",0,"Multiplies Gil earned after battle by 1.5x. Does not impact other sources of Gil (such as selling items or completing quests). ",5
+48,"MP+10%",0,"Increases character's maximum MP by 10%. ",4
+49,"MP+20%",0,"Increases character's maximum MP by 20%. ",8
+50,"MP Attack",0,"Regular attacks use 1/8 of character's maximum MP but are 1.5x more powerful. ",5
+51,"Mug",0,"Deal damage while Stealing. ",3
+52,"Odin's Sword",0,"If Odin's Zantetsuken fails to kill a target, deals damage to it instead. ",5
+53,"Power Throw",0,"Causes Throw to be powered up by 2.5x instead of 2x. ",19
+54,"Power Up",0,"Doubles power of Chakra. (Other abilities are not affected.) ",3
+55,"Protect Girls",0,"Takes physical damage for female characters who have 50% or less of their maximum HP remaining. ",4
+56,"Reflect-Null",0,"Ignores Reflect status on spells cast by character. ",7
+57,"Reflectx2",0,"Doubles the power of spells cast by Vivi and bounced off Reflect barriers. ",17
+58,"Restore HP",0,"If character has less than 1/6 of maximum HP remaining and they take damage and survive, 50% of their max HP will be restored. ",8
+59,"Return Magic",0,"If hit by an offensive spell, the character will counter with the same spell. No MP is used, and the character does not need to know the spell. ",9
+60,"Steal Gil",0,"Steal Gil along with Items. ",5
+61,"Stone Killer",0,"Deals 1.5x normal damage to Stone-based enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",4
+62,"Undead Killer",0,"Deals 1.5x normal damage to Undead enemies. Does not stack with other -Killer abilities if enemy is in more than one category. ",2
+63,"Flee",1,"Flees battle. Always succeeds unless the battle is inescapable. ",0
+64,"Detect",1,"Displays a list of an enemy's remaining Steal-able items. ",0
+65,"What's That?!",1,"If successful, party gains a back attack against the enemy party. ",2
+66,"Soul Blade",1,"Inflicts equipped thief sword's Add Status status on one enemy. Fails if Zidane is equipped with a dagger. ",6
+67,"Annoy",1,"Inflicts Trouble status on one enemy. ",6
+68,"Sacrifice",1,"Inflicts KO status on self to replenish party's HP and MP. ",32
+69,"Lucky Seven",1,"If user's HP ends in 7, deals 7, 77, 777, or 7777 damage to one enemy (damage amount chosen at random). ",6
+70,"Thievery",1,"Attack deals 1 point physical damage per successful Steal attempt on the file (includes steals from Marcus, Blank, and Cinna as well). Damage caps at 9,999. ",8
+71,"Fire",2,"Deals low (14 base power) Fire-elemental damage to one or multiple targets. ",6
+72,"Fira",2,"Deals medium (29 base power) Fire-elemental damage to one or multiple targets. ",12
+73,"Firaga",2,"Deals high (72 base power) Fire-elemental damage to one or multiple targets. ",24
+74,"Sleep ",2,"Inflicts Sleep status on one or multiple targets with 50% base accuracy. ",10
+75,"Blizzard",2,"Deals low (14 base power) Ice-elemental damage to one or multiple targets. ",6
+76,"Blizzara",2,"Deals medium (29 base power) Ice-elemental damage to one or multiple targets. ",12
+77,"Blizzaga",2,"Deals high (72 base power) Ice-elemental damage to one or multiple targets. ",24
+78,"Slow ",2,"Inflicts Slow status on one target with 60% base accuracy. ",26
+79,"Thunder",2,"Deals low (14 base power) Thunder-elemental damage to one or multiple targets. ",6
+80,"Thundara",2,"Deals medium (29 base power) Thunder-elemental damage to one or multiple targets. ",12
+81,"Thundaga",2,"Deals high (72 base power) Thunder-elemental damage to one or multiple targets. ",24
+82,"Stop ",2,"Inflicts Stop status on one target with 40% base accuracy. ",8
+83,"Poison ",2,"Inflicts Poison status on one or multiple targets with 60% base accuracy.",8
+84,"Bio",2,"Inflicts medium (42 base power) non-elemental damage plus Poison status (20% base status accuracy). Note that the spell can still hit for damage even if Poison is not set. ",18
+85,"Osmose",2,"Drains MP (15 base power) from one target and gives it to Vivi. If target is Undead, Vivi will lose MP instead. ",2
+86,"Drain",2,"Drains HP (32 base power) from one target and gives it to Vivi. If target is Undead, Vivi will lose HP instead. ",14
+87,"Demi",2,"Reduces target's HP by 1/4 of its maximum HP with 40% base accuracy. Fails against bosses. ",18
+88,"Comet",2,"Deals random defense-ignoring non-elemental damage (56 base power, however this effectively serves as the upper damage limit due to the spell's mechanics) to one target with 66.4% accuracy. ",16
+89,"Death",2,"Inflicts KO status on one target with 35% base accuracy. Heals Undeads to full HP. ",20
+90,"Break",2,"Inflicts Petrify status on one target with 40% base accuracy. ",18
+91,"Water",2,"Inflicts high (64 base power) Water-elemental damage on one or multiple targets. ",22
+92,"Meteor",2,"Inflicts random defense-ignoring non-elemental damage (88 base power, however this effectively serves as the upper damage limit due to the spell's mechanics) on all enemies. Sometimes misses; as the target's Spirit stat rises, so does the probability of a miss. ",42
+93,"Flare",2,"Inflicts extreme (119 base power) non-elemental damage on one target. ",40
+94,"Doomsday",2,"Inflicts extreme (112 base power) Shadow-elemental damage to all targets (friend and foe). ",72
+95,"Darkside",3,"Darkside is an interesting attack: it deals fairly-heavy Shadow-elemental damage at no MP cost and ignores Mini status on Steiner and Protect on the target, but each use knocks off 1/8 of Steiner's maximum HP. It's mostly useless, though there are a few situations where it's highly useful. ",0
+96,"Minus Strike",3,"Inflicts damage equal to Steiner's Max HP - Steiner's Current HP. ",8
+97,"Iai Strike",3,"Inflicts KO status on target with 30% base accuracy. ",16
+98,"Power Break",3,"Reduces Strength stat of one enemy by 25% with 50% base accuracy. Can be used repeatedly to ""stack"" the effect. ",8
+99,"Armor Break",3,"Reduces Defense stat of one enemy by half with 50% base accuracy. Can be used repeatedly to ""stack"" the effect. ",4
+100,"Mental Break",3,"Reduces Magic Defense stat of one enemy by half with 50% base accuracy. Can be used repeatedly to ""stack"" the effect. ",8
+101,"Magic Break",3,"Reduces Magic stat of one enemy by 25% with 50% base accuracy. Can be used repeatedly to ""stack"" the effect. ",4
+102,"Charge!",3,"Causes all characters in Critical HP to attack with standard physical attacks. ",10
+103,"Thunder Slash",3,"Thunder Slash was supposed to hit for heavy Thunder-elemental damage, but due to the Thunder Slash Bug only hits for 19% of the enemy's max HP and usually misses. Stay away from this skill, unless you're using a patch or cheat code to fix the bug. Note that the bug only affects Steiner... ",24
+104,"Stock Break",3,"Hits all enemies for heavy damage in the element of the equipped weapon. ",26
+105,"Climhazzard",3,"Hits all enemies for double normal weapon power in magical non-elemental damage. Note that Mini status on the user and Shell will both halve damage. ",32
+106,"Shock",3,"Deals extreme physical damage to one target in the element of your equipped weapon. ",32
+107,"Shiva",4,"Deals medium (36 base power) Ice-elemental damage to all enemies. ",24
+108,"Ifrit",4,"Deals medium (42 base power) Fire-elemental damage to all enemies. ",26
+109,"Ramuh",4,"Deals medium (32 base power) Thunder-elemental damage to all enemies. ",22
+110,"Atomos",4,"Deals 30% of maximum HP as damage to all enemies. Each Amethyst in your inventory adds 1% to the initial 30% damage figure, meaning with 70 or more Amethysts in inventory and the long animation Atomos will OHKO all enemies with 9,999 HP or less, and deal 9,999 a shot to all enemies with more. Fails against bosses. ",32
+111,"Odin",4,"Odin's attack is strongly influenced by the Odin's Sword Support Ability. First, Odin will attempt to inflict KO status on all enemies. The base chance is the amount of Ore in your inventory divided by 2 and expressed as a percentage, then modified by the difference between one-quarter Dagger's Magic stat and her Level minus the enemy's Level. At this point, if Odin's Sword is not equipped, or if all enemies were KO'd successfully, the attack ends; otherwise, the Odin's Sword ability causes Odin to use a damage attack (base power = 145 - Ore in inventory) on all enemies that weren't KO'd. With a low Ore count this can potentially out-power even Ark, but you may not want to spend the stones on Odin's Sword, depending on your strategy. ",28
+112,"Leviathan",4,"Deals heavy (59 base power) Water-elemental damage to all enemies. ",42
+113,"Bahamut",4,"Deals heavy (88 base power) non-elemental damage to all enemies. ",56
+114,"Ark",4,"Deals extreme (106 base power) Shadow-elemental damage to all enemies. With even a small stack of Lapis Lazuli in your inventory and the long animation, Ark is the strongest normal-damage-formula attack in the game and hits all enemies (it even outpowers Madeen, although Ark is of an inferior element). You can also cheese out the long animation version especially: equip everyone with Auto-Regen and Dagger with Boost, then Summon Ark anytime your HP gets low and don't enter the menu. Everyone will Regen most of their lost HP, after which the enemy will take heavy damage. This attack rocks, and is frankly one of the only reasons to bother with Dagger after Eiko joins up (the other is Bahamut, which is likewise capable of out-powering Madeen and is non-elemental). ",80
+115,"Fenrir",4,"Normally, Fenrir deals medium (42 base power) Earth-elemental damage to all enemies. However, if Eiko has a Maiden Prayer equipped, Fenrir deals medium (44 base power) Wind-elemental damage to all enemies. ",30
+116,"Phoenix",4,"Revives all KO'd allies (the amount of HP they will have is dependent on the ally's Spirit stat) and hits all enemies for medium (40 base power) Fire-elemental damage (not increased by any Gem). In addition, if the entire party is KO'd and Eiko is in the party, there is a chance Phoenix will be Summoned as a final attack (the chance increases depending on the number of Phoenix Pinions in your inventory), reviving all allies but dealing no damage to the enemy party and costing no MP. ",32
+117,"Carbuncle",4,"Summons Carbuncle, which buffs your party based upon Eiko's equipped Add-on",24
+118,"Madeen",4,"Deals heavy (71 base power) Holy-elemental damage to all enemies. ",54
+119,"Cure",5,"Heals a small amount of HP (16 base power) to one or multiple targets. Damages Undeads. ",6
+120,"Cura",5,"Heals a moderate amount of HP (38 base power) to one or multiple targets. Damages Undeads.",10
+121,"Curaga",5,"Curaga",22
+122,"Regen ",5,"Sets Regen status on one target. ",14
+123,"Life",5,"Revives one target from KO status. Reduces Undeads to single-digit HP. ",8
+124,"Full-Life",5,"Revives one target from KO status, typically restoring them to full HP. Instantly KO's Undeads. ",24
+125,"Scan",5,"Shows one target's HP, MP, and elemental weaknesses (if any). Fails on many bosses. ",4
+126,"Panacea",5,"Removes Poison and Venom from one target. ",4
+127,"Stona",5,"Removes Petrify and Gradual Petrify from one target. ",8
+128,"Esuna",5,"Removes most Status Ailments (except KO, Doom, and Zombie) from one target. ",6
+129,"Shell",5,"Applies Shell status to one target. ",6
+130,"Protect ",5,"Applies Protect status to one target. ",6
+131,"Haste ",5,"Applies Haste status to one target. ",8
+132,"Silence",5,"Inflicts Silence on one target with 50% base accuracy. ",8
+133,"Mini ",5,"Inflicts Mini on one target with 50% base accuracy. ",8
+134,"Reflect ",5,"Applies Reflect status to one target. ",6
+135,"Confuse ",5,"Inflicts Confuse on one target with 50% base accuracy. ",8
+136,"Berserk ",5,"Inflicts Berserk status on one target with 50% base accuracy. ",6
+137,"Blind",5,"Inflicts Darkness status on one target with 75% base accuracy. ",6
+138,"Float ",5,"Applies Float status to one target. ",6
+139,"Dispel",5,"Removes Shell, Protect, Haste, Reflect, Regen, Float, Vanish, and Auto-Life statuses from one target. ",16
+140,"Might",5,"increases one target's Strength stat by 25% for the duration of the battle, up to a total maximum of 99 Strength. This ability can be used multiple times to ""stack"" the effect. ",14
+141,"Jewel",5,"Extracts one Ore from target and adds it to inventory (50% base accuracy). This can be done as often as you like (enemies will never ""run out""). ",4
+142,"Holy",5,"Inflicts extreme (113 base power) Holy-elemental damage on one target. ",36
+143,"Lancer",6,"Deals 120% normal weapon damage, and drains 1/6th of the damage done as MP added to Freya's current MP. ",10
+144,"Reis's Wind",6,"Applies Regen status on all characters. ",12
+145,"Dragon Breath",6,"Deals damage to all enemies equal to target's max HP - target's current HP. ",78
+146,"White Draw",6,"Damages an enemy's MP and restores to each party member a small amount of MP. ",36
+147,"Luna",6,"Inflicts Berserk on all targets (friends and foes). ",12
+148,"Six Dragons",6,"For each ally, randomly restores to maximum or reduces to 1 HP and/or MP. ",28
+149,"Cherry Blossom",6,"Deals 150% normal weapon damage to one target. ",46
+150,"Dragon's Crest",6,"Deals damage equal to the square of the total number of Dragons you've defeated (for example, if you kill 50 dragons, this will deal 502 = 2,500 damage) to one enemy. ",16
+151,"Goblin Punch",7,"Inflicts a low (20 base power) amount of non-elemental magic damage to one target. Should Quina's level be the same as the target's, damage is increased. ",4
+152,"LV5 Death",7,"Inflicts KO status on all enemies with a level that is a multiple of 5. ",20
+153,"LV4 Holy",7,"Inflicts medium (34 base power) Holy-elemental damage on all enemies with a level that is a multiple of 4. ",22
+154,"LV3 Def-less",7,"Reduces Defense and Magic Defense by a random amount (between 0 and the enemy's total Defense/Magic Defense) for all enemies with a level that is a multiple of 3. ",12
+155,"Doom ",7,"Inflicts Doom status on one target with 25% base accuracy. ",12
+156,"Roulette",7,"Inflicts unblockable KO status on a random target (can be character or monster, can also hit caster). ",18
+157,"Aqua Breath",7,"Inflicts Water-elemental damage equal to 25% of all enemies' maximum HP. Fails against bosses. ",14
+158,"Mighty Guard",7,"Applies Protect and Shell statuses to all characters. ",64
+159,"Matra Magic",7,"Reduces one target's HP to 1 with 20% base accuracy. Ideal for Eating enemies. ",8
+160,"Bad Breath",7,"Inflicts Confuse, Darkness, Poison, Slow, and Mini on one enemy with a base accuracy of 40%. ",16
+161,"Limit Glove",7,"If caster's HP is greater than 1, attack misses. If caster's HP equals 1, inflicts 9,999 unblockable non-elemental damage to one target. ",10
+162,"1,000 Needles",7,"Inflicts 1,000 fixed non-elemental damage to one target. ",8
+163,"Pumpkin Head",7,"Inflicts damage to one target equal to caster's maximum HP - caster's current HP. ",12
+164,"Night",7,"Inflicts Sleep status on all targets (allies and enemies) with 100% accuracy (misses if target is immune to status). ",14
+165,"Twister",7,"Inflicts random Wind-elemental damage to all enemies, capped at 55x the total of caster's level and Magic stat (before elemental effects are considered). ",22
+166,"Earth Shake",7,"Inflicts heavy (75 base power) Earth-elemental damage on all enemies. ",20
+167,"Angel's Snack",7,"Uses 1 Remedy item on each party member. If there are Remedy items in inventory but not enough for the entire party, all remaining Remedy items are used on a random party member (but never on the same party member twice). If no Remedy items are in inventory, the move cancels and your turn is lost. Highly useful in fights where statuses come into play. ",4
+168,"Frog Drop",7,"Inflicts damage equal to caster's level times the number of frogs Quina has caught to one enemy. ",10
+169,"White Wind",7,"Every party member recovers HP equal to 1/3 of the caster's maximum HP. ",14
+170,"Vanish ",7,"Applies Vanish status to one target. ",8
+171,"Frost",7,"Inflicts Freeze status on one target with 30% base accuracy. ",8
+172,"Mustard Bomb",7,"Inflicts Heat status on one target with 30% base accuracy. ",10
+173,"Magic Hammer",7,"Damages target's MP by a random amount up to the target's current HP total. ",2
+174,"Auto-Life",7,"Applies Auto-Life status to one target. ",14
+175,"Aura",8,"Applies Regen and Auto-Life to one target. ",12
+176,"Chakra",8,"Restores 20% each of one character's HP and MP. If Power Up is equipped, this doubles to 40%. ",4
+177,"Countdown",8,"Inflicts Doom status on one target with 50% base accuracy. ",16
+178,"Curse",8,"Makes one enemy weak to a random element. Can be used repeatedly. ",12
+179,"Demi Shock",8,"Damages one enemy for 20% of its maximum HP. Fails against bosses. ",20
+180,"No Mercy",8,"Inflicts 1.5x normal weapon damage in the element of Amarant's equipped weapon. ",12
+181,"Revive",8,"Revives one target from KO status. ",20
+182,"Spare Change",8,"Throws Gil at one enemy, dealing damage. The amount of damage and Gil lost depend on Amarant's Level (and the damage also upon his Spirit). ",0

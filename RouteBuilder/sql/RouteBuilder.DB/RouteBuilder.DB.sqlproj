@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>RouteBuilder.DB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{906116aa-8b3a-47e2-8b40-60e4a8351215}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>RouteBuilder.DB</RootNamespace>
+    <AssemblyName>RouteBuilder.DB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="DatabaseObjects" />
+    <Folder Include="SchemaObjects" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\PostDeployment" />
+    <Folder Include="SchemaObjects\Game" />
+    <Folder Include="SchemaObjects\Game\Security" />
+    <Folder Include="SchemaObjects\Game\Security\Schema" />
+    <Folder Include="SchemaObjects\Game\Tables" />
+    <Folder Include="SchemaObjects\Game\Programmability" />
+    <Folder Include="SchemaObjects\Game\Programmability\StoredProcedures" />
+    <Folder Include="SchemaObjects\Route" />
+    <Folder Include="SchemaObjects\Route\Security" />
+    <Folder Include="SchemaObjects\Route\Security\Schema" />
+    <Folder Include="SchemaObjects\Meta" />
+    <Folder Include="SchemaObjects\Meta\Tables" />
+    <Folder Include="SchemaObjects\Meta\Programmability" />
+    <Folder Include="SchemaObjects\Meta\Programmability\Stored Procedures" />
+    <Folder Include="SchemaObjects\Meta\Security" />
+    <Folder Include="SchemaObjects\Meta\Security\Schema" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\PostDeployment\PostDeployment.Character.Character.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="RouteBuilder.DB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SchemaObjects\Game\Security\Schema\Game.sql" />
+    <Build Include="SchemaObjects\Game\Tables\Character.sql" />
+    <Build Include="SchemaObjects\Game\Tables\CharacterAbilityJoin.sql" />
+    <Build Include="SchemaObjects\Game\Tables\Equipment.sql" />
+    <Build Include="SchemaObjects\Game\Tables\EquipmentAbilityJoin.sql" />
+    <Build Include="SchemaObjects\Game\Tables\Ability.sql" />
+    <Build Include="SchemaObjects\Game\Tables\AbilityType.sql" />
+    <Build Include="SchemaObjects\Game\Programmability\StoredProcedures\GetCharacterAbilities.sql" />
+    <Build Include="SchemaObjects\Route\Security\Schema\Route.sql" />
+    <Build Include="SchemaObjects\Game\Tables\GearSlots.sql" />
+    <Build Include="SchemaObjects\Game\Tables\CharacterEquipmentJoin.sql" />
+    <Build Include="SchemaObjects\Game\Tables\Elements.sql" />
+    <Build Include="SchemaObjects\Game\Tables\Weapon.sql" />
+    <Build Include="SchemaObjects\Game\Tables\Armor.sql" />
+    <Build Include="SchemaObjects\Meta\Tables\Session.sql" />
+    <Build Include="SchemaObjects\Meta\Security\Schema\Meta.sql" />
+    <Build Include="SchemaObjects\Meta\Programmability\Stored Procedures\SessionSave.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RouteBuilder.DB.publish.xml" />
+    <None Include="local.publish.xml" />
+  </ItemGroup>
+</Project>

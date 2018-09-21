@@ -1,0 +1,5 @@
+﻿CREATE TABLE [Game].[GearSlot]
+(
+	[GearSlotId] TINYINT NOT NULL PRIMARY KEY,
+	[GearSlot] VARCHAR(20) NOT NULL
+)

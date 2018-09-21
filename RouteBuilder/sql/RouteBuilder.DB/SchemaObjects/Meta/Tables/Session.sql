@@ -1,0 +1,5 @@
+﻿CREATE TABLE [Meta].[Session]
+(
+	[SessionId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [SaveName] VARCHAR(50) NULL
+)
