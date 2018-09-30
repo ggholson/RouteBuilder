@@ -1,0 +1,20 @@
+.grid-container {
+  font-size: small;
+}
+
+.header-col {
+  @extend .col-1
+}
+
+.label-col {
+  @extend .col-2;
+  text-align: left;
+}
+
+.char-col {
+  @extend .col
+}
+
+.segment:nth-child(odd){
+    background-color: lightgray;
+}
