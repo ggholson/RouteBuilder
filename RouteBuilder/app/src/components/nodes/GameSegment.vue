@@ -13,18 +13,15 @@
 </template>
 
 <script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
+    import { Component, Vue, Prop } from 'vue-property-decorator';
     import { Segment } from "../../store/types";
     import NodeContainer from "./NodeContainer.vue"
 
     @Component({
-        props: {
-            segment : Segment
-        },
         components: { NodeContainer }
     })
     export default class GameSegment extends Vue {
-
+        @Prop() segment! : Segment;
     }
 </script>
 

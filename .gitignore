@@ -32,3 +32,6 @@ _ReSharper*/
 packages/
 *.dbmdl
 *.jfm
+.idea
+**/app/dist/**
+node_modules

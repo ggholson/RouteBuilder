@@ -3,24 +3,24 @@ export interface RootState {
 }
 
 export interface GameState {
-    routeId : number,
-    segments : Map<number, Segment>
+    routeId : number;
+    segments : Segment[];
 }
 
 export interface Segment {
-    name : string,
-    subname? : string,
-    id : number,
-    characters: Character[],
-    order : number,
-    nodes : Map<number, GameNode>
+    name : string;
+    subname? : string;
+    id : number;
+    characters : Character[];
+    order : number;
+    nodes : GameNode[];
 }
 
 export interface GameNode {
-    type : NodeType,
-    id : number,
-    order : number,
-    note? : string
+    type : NodeType;
+    id : number;
+    order : number;
+    note? : string;
 }
 
 export enum NodeType {
@@ -57,20 +57,20 @@ export enum ItemSource {
 }
 
 export interface Battle extends GameNode {
-    enemy : string,
-    ap : number,
-    dead? : Character[]
+    enemy : string;
+    ap : number;
+    dead? : Character[];
 }
 
 export interface Item extends GameNode {
-    item : string
-    slot : ItemSlot,
-    source : ItemSource
-    cost? : Number
+    item : string;
+    slot : ItemSlot;
+    source : ItemSource;
+    cost? : Number;
 }
 
 export interface NodeMutation {
-    segmentId : number,
-    nodeId : number,
-    node : GameNode
+    segmentId : number;
+    nodeId : number;
+    node : GameNode;
 }

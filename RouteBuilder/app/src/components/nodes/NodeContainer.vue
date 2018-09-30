@@ -6,19 +6,18 @@
 </template>
 
 <script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
-    import { GameNode, NodeType, Character } from "../../store/types";
+    import { Component, Vue, Prop } from 'vue-property-decorator';
+    import { NodeType, Character, GameNode } from "../../store/types";
     import BattleNode from "./BattleNode.vue";
     import ItemNode from "./ItemNode.vue";
 
     @Component({
-        props: {
-            node : GameNode,
-            chars : Array
-        },
         components: { BattleNode, ItemNode }
     })
     export default class NodeContainer extends Vue {
+        @Prop() node! : GameNode;
+        @Prop(Array) chars! : Character[];
+
         protected nodeType = NodeType;
 
         public getClass() : string {
@@ -32,6 +31,8 @@
                 case 3:
                     return "item-node-container";
             }
+
+            return "";
         }
     }
 </script>

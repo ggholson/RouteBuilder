@@ -11,15 +11,13 @@
 </template>
 
 <script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
+    import { Component, Vue, Prop } from 'vue-property-decorator';
     import { Item, ItemSource, ItemSlot } from "../../store/types";
 
-    @Component({
-        props: {
-            node : Item
-        }
-    })
+    @Component
     export default class ItemNode extends Vue {
+        @Prop() node! : Item;
+
         protected source = ItemSource;
         protected slot = ItemSlot;
     }

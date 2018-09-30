@@ -14,7 +14,7 @@
         components: { EquipGrid },
     })
     export default class TestBed extends Vue {
-        @State(state => state) game_state : GameState;
+        @State(state => state) game_state! : GameState;
     }
 </script>
 

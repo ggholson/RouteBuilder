@@ -15,15 +15,12 @@
     import { Battle, Character } from "../../store/types";
     import { GetNumericValues } from "../../helpers";
 
-    @Component({
-        props: {
-            node : Battle,
-            chars : Array
-        }
-    })
+    @Component
     export default class BattleNode extends Vue {
+        @Prop() node! : Battle;
+        @Prop() chars! : Character[];
 
-        public getCharacters() : Character {
+        public getCharacters() : Number[] {
             const values =  GetNumericValues(Character)
             return Object.values(values);
         }
@@ -34,7 +31,7 @@
                     return "0";
                 }
                 else {
-                    return this.node.ap;
+                    return this.node.ap.toString();
                 }
             }
 

@@ -26,7 +26,7 @@
         components: { GameSegment }
     })
     export default class EquipGrid extends Vue {
-        @State('game_state') game_state : GameState;
+        @State('game_state') game_state! : GameState;
 
         getHeaders() : string[] {
             return GetStringValues(Character);
