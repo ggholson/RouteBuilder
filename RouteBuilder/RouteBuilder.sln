@@ -31,8 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteBuilder.Data.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteBuilder.Data.Sql", "src\RouteBuilder.Data.Sql\RouteBuilder.Data.Sql.csproj", "{8EE2E3CC-47E4-4FBE-9CA4-924E74E57D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteBuilder.Data.Sqlite", "src\RouteBuilder.Data.Sqlite\RouteBuilder.Data.Sqlite.csproj", "{F9E802B0-31CF-43A9-8FA3-AF90E78FEC62}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,10 +75,6 @@ Global
 		{8EE2E3CC-47E4-4FBE-9CA4-924E74E57D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EE2E3CC-47E4-4FBE-9CA4-924E74E57D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EE2E3CC-47E4-4FBE-9CA4-924E74E57D34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9E802B0-31CF-43A9-8FA3-AF90E78FEC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9E802B0-31CF-43A9-8FA3-AF90E78FEC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9E802B0-31CF-43A9-8FA3-AF90E78FEC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9E802B0-31CF-43A9-8FA3-AF90E78FEC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,7 +90,6 @@ Global
 		{A1167535-A440-4C65-9C82-F36D39E2C4E4} = {5BA3E38C-66D9-4412-8154-A80EDBDCBAEC}
 		{AE9C018E-C70A-452A-9790-59F37E8CD93B} = {5BA3E38C-66D9-4412-8154-A80EDBDCBAEC}
 		{8EE2E3CC-47E4-4FBE-9CA4-924E74E57D34} = {902C56F2-6CA1-4FE4-B90B-DA78786CFC55}
-		{F9E802B0-31CF-43A9-8FA3-AF90E78FEC62} = {902C56F2-6CA1-4FE4-B90B-DA78786CFC55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E9F58DC-F501-4867-BCE8-98559C41CA31}

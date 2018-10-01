@@ -9,6 +9,6 @@
 
         Ability GetAbility(short id);
 
-        IList<CharacterAbility> GetCharacterAbilities(Characters characters);
+        IList<CharacterAbility> GetCharacterAbilities(Character characters);
     }
 }

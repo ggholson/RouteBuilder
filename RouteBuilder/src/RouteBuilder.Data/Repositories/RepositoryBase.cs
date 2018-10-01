@@ -3,11 +3,19 @@
     using System;
     using System.Data;
     using System.Data.Common;
+    using Dapper;
+    using RouteBuilder.Core.Enums;
     using RouteBuilder.Data.Contracts;
+    using RouteBuilder.Data.Handlers;
 
     public abstract class RepositoryBase : IRepository
     {
         protected readonly IConnectionFactory ConnectionFactory;
+
+        static RepositoryBase()
+        {
+            SqlMapper.AddTypeHandler(typeof(Character[]), new CharacterArrayHandler());
+        }
 
         protected RepositoryBase(IConnectionFactory factory)
         {

@@ -7,13 +7,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
-    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.109.0"/>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.109.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RouteBuilder.Application\RouteBuilder.Application.csproj" />
     <ProjectReference Include="..\RouteBuilder.Core\RouteBuilder.Core.csproj" />
-    <ProjectReference Include="..\RouteBuilder.Data.Sqlite\RouteBuilder.Data.Sqlite.csproj" />
     <ProjectReference Include="..\RouteBuilder.Data.Sql\RouteBuilder.Data.Sql.csproj" />
     <ProjectReference Include="..\RouteBuilder.Data\RouteBuilder.Data.csproj" />
   </ItemGroup>

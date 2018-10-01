@@ -1,0 +1,6 @@
+﻿CREATE TABLE [Route].[Route]
+(
+	[RouteId] SMALLINT IDENTITY(0,1) PRIMARY KEY,
+	[Name] NVARCHAR(100) NOT NULL, 
+    CONSTRAINT [UNQ_Route_Name] UNIQUE (Name)
+)

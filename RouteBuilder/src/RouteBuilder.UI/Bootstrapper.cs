@@ -8,17 +8,16 @@
     using RouteBuilder.Data.Contracts;
     using RouteBuilder.Data.Repositories;
     using RouteBuilder.Data.Sql;
-    using RouteBuilder.Data.Sqlite;
 
     public static class Bootstrapper
     {
         public static void ConfigureDependencies(IServiceCollection services)
         {
-            services.AddTransient<IAbilityProvider, AbilityRepository>();
+            services.AddTransient<IAbilityProvider, AbilityDataProvider>();
 
             services.AddTransient<IAbilityService, AbilityService>();
-            services.AddSingleton<IRepository, SqliteDataRepository>();
-            services.AddSingleton<IConnectionFactory, SqliteConnectionFactory>();
+            services.AddSingleton<IRepository, SqlRepository>();
+            services.AddSingleton<IConnectionFactory, SqlConnectionFactory>();
         }
     }
 }

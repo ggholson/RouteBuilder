@@ -26,7 +26,7 @@
 
         public ActionResult Character(int id)
         {
-            var character = (Characters) id;
+            var character = (Character) id;
 
             IList<CharacterAbility> abilities = this.abilityService.GetCharacterAbilities(character);
 

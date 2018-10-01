@@ -140,4 +140,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="SessionId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="04f6a3e4-d8dd-4249-9daf-c564c83c7dcc" ChangeDateTime="10/01/2018 05:22:00">
+    <Property Name="ElementName" Value="[Route].[Segment].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Route].[Segment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SegmentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a7c9ae9-dc89-43c5-8ba6-352daffde601" ChangeDateTime="10/01/2018 05:33:02">
+    <Property Name="ElementName" Value="[Route].[RouteSegmentJoin].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Route].[RouteSegmentJoin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SegmentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f3395512-cfdf-41e8-856c-b75f3cdad7f5" ChangeDateTime="10/01/2018 05:33:18">
+    <Property Name="ElementName" Value="[Route].[RouteSegmentJoin].[SegmentId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Route].[RouteSegmentJoin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RouteId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="753a0473-111b-425a-a10f-f292198906f7" ChangeDateTime="10/01/2018 05:33:22">
+    <Property Name="ElementName" Value="[Route].[RouteSegmentJoin].[RouteId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Route].[RouteSegmentJoin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SegmentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d77a77b4-bf62-45a6-a2dc-e799aab627c8" ChangeDateTime="10/01/2018 06:56:57">
+    <Property Name="ElementName" Value="[Route].[RouteSegmentJoin].[Order]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Route].[RouteSegmentJoin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Sequence" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1da30780-c3d7-44a9-81f2-36d4d0abe00c" ChangeDateTime="10/01/2018 06:57:55">
+    <Property Name="ElementName" Value="[Route].[RouteSegmentJoin].[Sequence]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Route].[RouteSegmentJoin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Position" />
+  </Operation>
 </Operations>

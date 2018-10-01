@@ -53,7 +53,9 @@ export enum ItemSource {
     Buy,
     Drop,
     Steal,
-    Pickup
+    Pickup,
+    Synth,
+    Sell
 }
 
 export interface Battle extends GameNode {

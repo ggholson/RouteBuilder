@@ -76,6 +76,9 @@
     <Folder Include="SchemaObjects\Meta\Programmability\Stored Procedures" />
     <Folder Include="SchemaObjects\Meta\Security" />
     <Folder Include="SchemaObjects\Meta\Security\Schema" />
+    <Folder Include="SchemaObjects\Route\Table" />
+    <Folder Include="SchemaObjects\Route\Programmability" />
+    <Folder Include="SchemaObjects\Route\Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment\PostDeployment.Character.Character.sql" />
@@ -101,6 +104,11 @@
     <Build Include="SchemaObjects\Meta\Tables\Session.sql" />
     <Build Include="SchemaObjects\Meta\Security\Schema\Meta.sql" />
     <Build Include="SchemaObjects\Meta\Programmability\Stored Procedures\SessionSave.sql" />
+    <Build Include="SchemaObjects\Route\Table\Route.sql" />
+    <Build Include="SchemaObjects\Route\Table\Segment.sql" />
+    <Build Include="SchemaObjects\Route\Table\RouteSegmentJoin.sql" />
+    <Build Include="SchemaObjects\Route\Programmability\Stored Procedures\CreateRoute.sql" />
+    <Build Include="SchemaObjects\Route\Programmability\Stored Procedures\GetRouteSegments.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="RouteBuilder.DB.publish.xml" />

@@ -6,6 +6,8 @@
 
         Battle = 1,
 
-        Equip = 2
+        Equip = 2,
+
+        Item = 3
     }
 }

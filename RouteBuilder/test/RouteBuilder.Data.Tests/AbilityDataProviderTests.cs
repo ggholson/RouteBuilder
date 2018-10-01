@@ -1,7 +1,6 @@
 ﻿namespace RouteBuilder.Data.Tests
 {
     using System.Linq;
-    using Microsoft.Extensions.Configuration;
     using RouteBuilder.Core.Enums;
     using RouteBuilder.Data.Contracts;
     using RouteBuilder.Data.Repositories;
@@ -11,11 +10,11 @@
     using Shouldly;
     using Xunit;
 
-    public class AbilityRepositoryTests
+    public class AbilityDataProviderTests
     {
         private readonly IRepository repo;
 
-        public AbilityRepositoryTests()
+        public AbilityDataProviderTests()
         {
             var config = TestConfiguration.Configuration;
             this.repo = new SqlRepository(new SqlConnectionFactory(config));
@@ -24,9 +23,9 @@
         [Fact]
         public void GetCharacterAbilities_GetsCorrectDefinitions()
         {
-            var sut = new AbilityRepository(this.repo);
+            var sut = new AbilityDataProvider(this.repo);
 
-            var data = sut.GetCharacterAbilities(Characters.Zidane);
+            var data = sut.GetCharacterAbilities(Character.Zidane);
 
             data.Count.ShouldBe(47);
             data.ShouldContain(a => a.AbilityId == 46);

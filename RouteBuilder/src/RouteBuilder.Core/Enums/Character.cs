@@ -1,6 +1,6 @@
 ﻿namespace RouteBuilder.Core.Enums
 {
-    public enum Characters
+    public enum Character
     {
         Zidane = 0,
 

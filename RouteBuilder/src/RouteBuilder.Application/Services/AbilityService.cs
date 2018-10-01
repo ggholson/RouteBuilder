@@ -21,7 +21,7 @@
             return this.provider.GetAbility(abilityId);
         }
 
-        public IList<CharacterAbility> GetCharacterAbilities(Characters characters)
+        public IList<CharacterAbility> GetCharacterAbilities(Character characters)
         {
             return this.provider.GetCharacterAbilities(characters);
         }

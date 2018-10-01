@@ -9,30 +9,24 @@
     using RouteBuilder.Core.Models.Entity;
     using RouteBuilder.Data.Contracts;
 
-    public class AbilityRepository : IAbilityProvider
+    public class AbilityDataProvider : DataProviderBase, IAbilityProvider
     {
-        private readonly IRepository repository;
-
-        public AbilityRepository(IRepository repository)
+        public AbilityDataProvider(IRepository repository) : base(repository)
         {
-            this.repository = repository;
         }
 
         public Ability GetAbility(short id)
         {
-            return this.repository.Execute<Ability>((conn) =>
-            {
-                return conn.Get<Ability>(id);
-            });
+            return this.Repository.Execute((conn) => conn.Get<Ability>(id));
         }
 
-        public IList<CharacterAbility> GetCharacterAbilities(Characters characters)
+        public IList<CharacterAbility> GetCharacterAbilities(Character characters)
         {
             var parameters = new
                              {
                                  CharacterId = characters
                              };
-            return this.repository.Execute((conn) =>
+            return this.Repository.Execute((conn) =>
             {
                 return conn.Query<CharacterAbility>(
                         "[Game].[GetCharacterAbilities]", 
